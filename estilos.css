@@ -1,0 +1,26 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+#container {
+    background-color: #ababab;
+  }
+  
+  #container p{
+    font-size: 1em;
+    margin: 0;
+    text-align: center;
+    -webkit-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    transition: font-size .5s ease;
+  }
+  
+  #container p:hover {
+    font-size: 1.5em;
+  }
